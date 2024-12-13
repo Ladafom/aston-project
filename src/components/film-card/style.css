@@ -1,0 +1,53 @@
+.FilmCard {
+  width: 340px;
+  height: 510px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.FilmCard-favorite{
+  height: 104px;
+  background: linear-gradient(#383838, #38383800);
+  color: #fff;
+  text-align: end;
+  padding: 18px;
+  position: relative;
+  transition: all 0.7s;
+}
+
+.FilmCard-favorite__show{
+  top: 0%;
+}
+
+.FilmCard-favorite__hidden{
+  top: -30%;
+}
+
+.FilmCard-extra {
+  background-color: #383838;
+  color: #fff;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  transition: all 0.7s;
+}
+
+.FilmCard-extra__show {
+  top: 0px;
+}
+
+.FilmCard-extra__hidden {
+  top: 36px;
+}
+
+.FilmCard-link {
+  font-size: 20px;
+}

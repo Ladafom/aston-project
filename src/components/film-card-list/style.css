@@ -1,0 +1,11 @@
+.FilmsList {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 55px 40px;
+}
+
+.FilmsList-noMatches{
+  margin: auto;
+}

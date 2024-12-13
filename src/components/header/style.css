@@ -1,0 +1,19 @@
+.Header{
+  height: 76px;
+  background-color: var(--dark-grey);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+
+.Header-title, .Header-title:hover {
+  color: var(--corall);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Header-btns {
+  display: flex;
+  gap: 50px;
+}

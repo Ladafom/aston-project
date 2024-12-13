@@ -1,0 +1,15 @@
+.FilterSearch {
+  width: 420px;
+}
+
+.FilterSearch > label, .FilterSearch > div > input {
+  font-size: 20px;
+  font-family: 'Oswald',sans-serif;
+  align-items: center;
+  color: var(--dark-grey);
+}
+
+.FilterSearch > div > input {
+  height: 56px;
+  box-sizing: border-box;
+}
